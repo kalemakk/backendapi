@@ -26,7 +26,14 @@ urlpatterns = [
     path('api/project/', Api.api_view.ProjectList.as_view()),
     path('api/user/', Api.api_view.UserList.as_view()),
     path('api/project/new', Api.api_view.ProjectCreate.as_view()),
-    path('api/user/new', Api.api_view.UserRetriveUpdate.as_view()),
+    path('api/user/new', Api.api_view.UserCreate.as_view()),
+    path('api/issue/new', Api.api_view.IssueCreate.as_view()),
+    path('api/comment/new', Api.api_view.CommentCreate.as_view()),
+
+    path('api/user/<int:id>', Api.api_view.UserRetrieveUpdateDestroy.as_view()),
+    path('api/project/<int:id>', Api.api_view.ProjectRetrieveUpdateDestroy.as_view()),
+    path('api/issue/<int:id>', Api.api_view.IssueRetrieveUpdateDestroy.as_view()),
+    path('api/comment/<int:id>', Api.api_view.CommentRetrieveUpdateDestroy.as_view()),
 
     # path('api/new', Api.api_view.DemoCreate.as_view())
     # path('', include('Users.urls')),

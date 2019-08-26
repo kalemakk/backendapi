@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55a871f3-1173-4145-a7e9-5429ca2bc97b" name="Default Changelist" comment="" />
+    <list default="true" id="55a871f3-1173-4145-a7e9-5429ca2bc97b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/api_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api/api_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/issueTrackerApi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/issueTrackerApi/urls.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +26,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1Og1AZ3fAMeeVjN2kcuVNDgZbfy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -95,11 +115,28 @@
       <workItem from="1564843064325" duration="631000" />
       <workItem from="1564846108280" duration="717000" />
       <workItem from="1565056601870" duration="19124000" />
-      <workItem from="1565130679665" duration="18440000" />
+      <workItem from="1565130679665" duration="21442000" />
+      <workItem from="1565183203838" duration="12754000" />
+      <workItem from="1565306763294" duration="4599000" />
+      <workItem from="1565501828114" duration="825000" />
+      <workItem from="1565823856407" duration="1469000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
